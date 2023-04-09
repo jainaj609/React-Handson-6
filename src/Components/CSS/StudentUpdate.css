@@ -1,0 +1,137 @@
+.input-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80vw;
+    height: 40vh;
+    margin: auto;
+    margin-top: 100px;
+    align-content: space-evenly;
+    gap: 150px;
+}
+
+/* .input-box {
+    display: flex;
+    height: 60px;
+    width: 350px;
+    flex-direction: column;
+    position: relative;
+   
+}
+
+input {
+    height: inherit;
+    width: inherit;
+    border: 1px solid black;
+    border-radius: 5px;
+    background: transparent;
+    font-size: large;
+    padding: 10px 15px;
+    position: relative;
+}
+
+input:focus {
+    background-color: aliceblue;
+   outline: 1px solid rgb(31, 126, 234);
+
+}
+label {
+    position: absolute;
+    font-size: large;
+    margin: auto;
+    top: 0;
+    left: 15px;
+    bottom: 0;
+    transition: top 0.3s ease-in-out;
+    background: inherit;
+    color: gray;
+
+}
+
+input:focus ~label,
+input:valid ~ label{
+    top: -65px;
+    left: 12px;
+    font-size: 14px;
+    background: linear-gradient(transparent 60%, aliceblue 40%);
+    padding: 0 5px;
+    color: rgb(31, 126, 234);
+} */
+
+
+
+
+.floating-label-input {
+    position: relative;
+    height: 60px;
+}
+
+input {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    font-size: 22px;
+    border: 1px solid black;
+    height: 60px;
+    width: 350px;
+    border-radius: 5px;
+    background: transparent;
+    font-size: 20px;
+    position: relative;
+    padding: 0 15px;
+    outline: none;
+}
+
+input:focus{
+   
+    border: 1px solid rgb(31, 126, 234);
+}
+
+label {
+    position: absolute;
+    top: 20px;
+    font-size: 22px;
+    left: 10px;
+    color: gray;
+    transition: all 0.3s;
+}
+
+input:focus~label,
+input:valid~label {
+    font-size: 15px;
+    top: -9px;
+    left: 12px;
+    font-size: 14px;
+    background: linear-gradient( rgb(187, 198, 208),rgb(212, 186, 186));
+
+    padding: 0 5px;
+    color: rgb(31, 126, 234);
+}
+.dbgcolor:focus~label,
+.dbgcolor:valid~label {
+    
+    background: rgb(207, 147, 147);
+}
+
+
+
+button {
+    width: 250px;
+    height: 50px;
+    background-color: aliceblue;
+    font-size: x-large;
+    border: 1px solid black;
+    border-radius: 30px;
+    float: right;
+}
+
+button:first-child {
+    background-color: rgb(103, 101, 101);
+}
+
+.button-container {
+    margin-top: 100px;
+    display: flex;
+    justify-content: flex-end;
+    width: 95vw;
+    gap: 30px;
+}

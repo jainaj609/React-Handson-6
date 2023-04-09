@@ -1,0 +1,13 @@
+
+.Links{
+    display: flex;
+    justify-content: space-around;
+    background: rgb(5, 5, 147);
+}
+
+.Link-Decoration{
+    text-decoration: none;
+    color: white;
+    font-family: cursive;
+    font-size: xx-large;
+}
